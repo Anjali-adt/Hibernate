@@ -14,7 +14,7 @@ import com.map.one_to_many.Question1;
 public class Cascade_Example {
 	public static void main(String[] args) {
 		
-	
+	System.out.println("Helloooooooo");
 	
 	SessionFactory sf =
 			new Configuration().configure().buildSessionFactory();
@@ -41,7 +41,7 @@ public class Cascade_Example {
     
     session.close();
     sf.close();
-
+   
 
 	
 	
